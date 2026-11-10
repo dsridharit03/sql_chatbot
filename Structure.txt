@@ -1,0 +1,29 @@
+backend/
+├── nl2sql_project/          # Django Project
+│   ├── settings.py          ✅ All configuration
+│   ├── urls.py              ✅ Routing
+│   ├── wsgi.py              ✅ Server config
+│   └── asgi.py
+│
+├── query_api/               # Django App
+│   ├── views.py             ✅ 5 API endpoints
+│   ├── urls.py              ✅ API routes
+│   ├── database_service.py  ✅ SQL Server logic
+│   └── ai_service.py        ✅ OpenAI + Claude support
+│   └── admin.py
+│   └── apps.py
+│   └── models.py
+│
+├── manage.py                ✅ Django CLI
+├── requirements.txt         ✅ Dependencies
+└── .env.example            ✅ Config template
+
+frontend/
+├── src/          
+│   ├── App.css          ✅ All configuration
+│   ├── App.js              ✅ Routing
+│   ├── index.css              ✅ Server config
+│   └── index.js
+│
+├── public/               
+│   └── index.html             

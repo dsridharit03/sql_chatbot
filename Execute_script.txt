@@ -1,0 +1,20 @@
+cd 'D:\Python\AI_Projects\sql_chat-Project'
+python -m venv sqlvenv
+.\sqlvenv\Scripts\Activate
+pip install -r requirements.txt
+cd backend
+python manage.py runserver  
+
+
+pip install django-cors-headers 
+
+cd 'D:\Python\AI_Projects\sql_chat-Project'
+.\sqlvenv\Scripts\Activate
+cd 'D:\Python\AI_Projects\sql_chat-Project\frontend'
+npm install
+npm start
+
+
+or 
+(sqlvenv) PS C:\Sridhar\Python\AI_Projects\django-nl2sql-complete> python start_servers.py
+http://localhost:3000/
